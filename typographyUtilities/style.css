@@ -1,0 +1,41 @@
+.container_0, body {
+    margin-top: 20px;
+    background-color: #95999c;
+}
+
+.container_1 {
+    height: 250px;
+    border: solid #333;
+}
+
+/* Small devices (landscape phones) */
+
+@media (min-width: 576px) {
+    body {
+        background: gray;
+    }
+}
+
+/* Medium devices (tablets) */
+
+@media (min-width: 768px) {
+    body {
+        background: blue;
+    }
+}
+
+/* Large devices (desktops) */
+
+@media (min-width: 992px) {
+    body {
+        background: cornflowerblue;
+    }
+}
+
+/* Extra-large devices (large desktops) */
+
+@media (min-width: 1200px) {
+    body {
+        background: darkslateblue;
+    }
+}

@@ -1,0 +1,18 @@
+container, body {
+    margin-top: 20px;
+    background-color: #e9ecef;
+}
+
+.btn {
+    box-shadow: 20px 10px 40px #333333;
+    z-index: 999;
+}
+
+.row-hl {
+    background: #95999c;
+    height: 250px;
+}
+
+.item-hl {
+    border: 1px solid #333333;
+}

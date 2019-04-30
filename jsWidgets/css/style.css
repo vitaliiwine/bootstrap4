@@ -1,0 +1,9 @@
+container, body {
+    margin-top: 20px;
+    background-color: #e9ecef;
+}
+
+#header-btn {
+    box-shadow: 20px 10px 40px #333333;
+    z-index: 999;
+}

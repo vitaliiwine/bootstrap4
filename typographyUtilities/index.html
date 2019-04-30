@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Typography & Utilities</title>
+</head>
+
+<body>
+
+<!--HEADINGS & BASIC TYPOGRAPHY-->
+
+<div class="container_0 text-center">
+    <h1>Heading One</h1>
+
+    <br>
+
+    <h1 class="display-3">Display 1</h1>
+
+    <br>
+
+    <!--TEXT ALIGNMENT & DISPLAY-->
+
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos earum eos facere id laboriosam
+        praesentium.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, mollitia.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, deserunt dicta dolores doloribus ducimus
+        eligendi fuga hic maiores optio sunt.</p>
+    <p class="text-monospace">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, dolorem.</p>
+
+    <!--FLOATS & FIXED POSITIONS-->
+
+    <blockquote class="blockquote">
+        <p>This is a blockquote</p>
+    </blockquote>
+
+    <blockquote class="blockquote text-right">
+        <p>This text is on the right</p>
+        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title
+        </cite>
+        </footer>
+    </blockquote>
+
+    <br>
+
+    <div class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi architecto consequatur
+        ducimus explicabo impedit itaque molestiae nostrum recusandae vitae voluptatum?
+    </div>
+
+    <br>
+
+    <!--COLORS & BACKGROUND-->
+
+    <ul>
+        <li class="list-inline-item text-primary">Blue</li>
+        <li class="list-inline-item text-secondary">Gray</li>
+        <li class="list-inline-item text-success">Green</li>
+        <li class="list-inline-item text-info">Light blue</li>
+        <li class="list-inline-item text-warning">Yellow</li>
+        <li class="list-inline-item text-danger">Red</li>
+        <li class="list-inline-item text-light bg-secondary">Light</li> <!--the same -->
+        <li class="list-inline-item text-dark">Dark</li>
+        <li class="list-inline-item text-black-50">Black 50</li>
+        <li class="list-inline-item text-white bg-secondary">White</li> <!--the same -->
+    </ul>
+
+    <br>
+
+    <p class="list-inline-item">
+        <a href="#" class="text-primary">Blue link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-secondary">Gray link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-success">Green link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-info">Light blue link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-warning">Yellow link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-danger">Red link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-light bg-secondary">Light link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-dark">Dark link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-black-50">Black 50 link</a>
+    </p>
+    <p class="list-inline-item">
+        <a href="#" class="text-white bg-secondary">White link</a>
+    </p>
+
+    <div class="bg-light clearfix">
+        <button class="float-left">Push me</button>
+        <button class="float-right">Push me</button>
+    </div>
+
+    <br>
+
+</div>
+
+<!--MARGIN & PADDING SPACING-->
+
+<h3 class="mb-0 px-3 pt-3 bg-secondary text-justify">Heading Two</h3>
+<p class="mb-0 px-3 py-3 bg-secondary text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, fugit, quod.
+    Aliquam animi asperiores consectetur delectus doloremque exercitationem illum iure labore maiores nam quia sapiente
+    sint, sunt ullam unde voluptas.
+</p>
+
+<!--SIZING & BORDERS-->
+
+<!--<div class="bg-primary p-3 w-auto text-center">Width Auto</div>-->   <!--the same as 100%-->
+<div class="bg-primary p-3 w-100 text-center">Width 100%</div>
+<div class="bg-primary p-3 w-75 text-center">Width 75%</div>
+<div class="bg-primary p-3 w-50 text-center">Width 50%</div>
+<div class="bg-primary p-3 w-25 text-center">Width 25%</div>
+
+<br>
+
+<div class="container_1">
+    <div class="bg-dark text-light text-center d-inline-block h-25">Height 25%</div>
+    <div class="bg-dark text-light text-center d-inline-block h-50">Height 50%</div>
+    <div class="bg-dark text-light text-center d-inline-block h-75">Height 75%</div>
+    <div class="bg-dark text-light text-center d-inline-block h-100">Height 100%</div>
+</div>
+
+<br>
+
+
+<div class="p-3 mb-2 bg-light border border-primary">Blue Border</div>
+<div class="p-3 mb-2 bg-light border border-secondary">Gray Border</div>
+<div class="p-3 mb-2 bg-light border border-success">Green Border</div>
+<div class="p-3 mb-2 bg-light border rounded border-warning">Yellow Border</div>
+<div class="p-3 mb-2 bg-light border rounded border-danger">Red Round Border</div>
+<div class="p-3 mb-2 bg-light border rounded border-dark">Red Round Border</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
